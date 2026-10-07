@@ -1,0 +1,15 @@
+node_modules/
+dist/
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Environment files hold secrets; only the example is committed.
+.env
+.env.*
+!.env.example
+
+npm-debug.log*
+.DS_Store
+Thumbs.db
